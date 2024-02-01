@@ -2,12 +2,12 @@
   "name": "3dfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://emmanuelsyealue.github.io/realone",
+  "homepage": "https://emmanuelsyealue.github.io/realon",
   "type": "module",
   "scripts": {
 
     "predeploy": "npm run build ",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
